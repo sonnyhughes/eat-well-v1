@@ -11,7 +11,7 @@ class LandingPage extends React.Component {
     // Set the components initial state..
 
 componentDidMount() {
-    document.title = "Eat Well!";
+    document.title = "Eat Well";
   }
     render() {
 
@@ -25,10 +25,10 @@ componentDidMount() {
                         <Hero.Body >
                             <Container style={{width:"100%", textAlign:"center"}}>
                             <Title >
-                                Eat Well!
+                                Eat Well
                             </Title>
                             <SubTitle>
-                                A Faster route to the best vegetarian food.
+                                Find vegetarian meals fast!
                             </SubTitle>
                             </Container>
                         </Hero.Body>

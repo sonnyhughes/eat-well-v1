@@ -20,7 +20,7 @@ class appContainer extends React.Component {
     }
 
     componentDidMount() {
-    document.title = "Eat Well!";
+    document.title = "Eat Well";
   }
 
     render() {
@@ -32,7 +32,7 @@ class appContainer extends React.Component {
                     <Level.Left>
                         <Level.Item>
                             <SubTitle is='5'>
-                                <a> <strong style={{fontSize: "25px", color: "white"}} onClick={this.goHome} >Eat Well!</strong></a>
+                                <a> <strong style={{fontSize: "25px", color: "white"}} onClick={this.goHome} >Eat Well</strong></a>
                             </SubTitle>
                         </Level.Item>
                     </Level.Left>
